@@ -2,8 +2,11 @@
     "targetSet": {
         "Programs/GT_Woche_1ASM/GT_Woche_1ASM": {
             "activeTargetType": "ITSboard_Assembly"
+        },
+        "Programs/A2ASM/A2ASM": {
+            "activeTargetType": "ITSboard_Assembly"
         }
     },
-    "activeSolution": "../Programs/GT_Woche_1ASM/GT_Woche_1ASM.csolution.yml",
+    "activeSolution": "../Programs/A2ASM/A2ASM.csolution.yml",
     "activeTarget": "ITSboard_Assembly"
 }
