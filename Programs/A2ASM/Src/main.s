@@ -51,7 +51,8 @@ main
     lsl R9, #8              ; Op04
     orr  R9, R10            ; Op05
     strh R9, [R8]           ; Op06
-    
+
     b .                     ; Anw0E
+    
     ALIGN
     END
