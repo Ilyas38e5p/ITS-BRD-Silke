@@ -69,7 +69,7 @@ main            PROC
                 ldr  r7,[r0,#16]                    ; Anw-23 liest 4 Bytes ab R0 + 16 nach R7 
                 ldr  r8,[r0,#20]                    ; Anw-24 liest 4 Bytes ab R0 + 20 nach R8
                 subs r9,r7,r8                       ; Anw-25 subtrahiert R8 von R7, speichert das Ergebnis in R9
-                  mrs r10, APSR
+                  
 forever         b   forever                         ; Anw-26
                 ENDP
                 END
